@@ -47,3 +47,30 @@ border-radius: 0px; */
 hr{
     color: ;
 }
+/* top blogs styles  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color:#562EFF;
+    font-size: 18px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+}
